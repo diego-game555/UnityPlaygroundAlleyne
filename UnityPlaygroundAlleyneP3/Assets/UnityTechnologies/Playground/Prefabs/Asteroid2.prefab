@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 4938448529555575120}
   - component: {fileID: 1032968650629568145}
   - component: {fileID: 5750724007571147516}
+  - component: {fileID: -7464085205193813918}
   m_Layer: 0
   m_Name: Asteroid2
   m_TagString: Untagged
@@ -210,3 +211,16 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   destroyWhenActivated: 0
   healthChange: -1
+--- !u!114 &-7464085205193813918
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4541782988295272043}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fb970c45b40bb4652a8310660a03dfb2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  health: 1
